@@ -5,14 +5,13 @@
   "author": "Basile V. <basile64.v@gmail.com>",
   "license": "MIT",
   "main": "index.js",
-  "homepage": "http://Grailsidhe.github.io/ultimate-game--react-app",
+  "homepage": "http://Grailsidhe.github.io/ultimate-game-react-app",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
     "prettier": "pretty-quick --staged",
-    "lint": "lint-staged",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
