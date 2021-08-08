@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ultimate-game-react-app/static/css/main.eb669eca.chunk.css",
+    "main.js": "/ultimate-game-react-app/static/js/main.d39821d3.chunk.js",
+    "main.js.map": "/ultimate-game-react-app/static/js/main.d39821d3.chunk.js.map",
+    "runtime-main.js": "/ultimate-game-react-app/static/js/runtime-main.87f68a56.js",
+    "runtime-main.js.map": "/ultimate-game-react-app/static/js/runtime-main.87f68a56.js.map",
+    "static/js/2.a36288e7.chunk.js": "/ultimate-game-react-app/static/js/2.a36288e7.chunk.js",
+    "static/js/2.a36288e7.chunk.js.map": "/ultimate-game-react-app/static/js/2.a36288e7.chunk.js.map",
+    "index.html": "/ultimate-game-react-app/index.html",
+    "static/css/main.eb669eca.chunk.css.map": "/ultimate-game-react-app/static/css/main.eb669eca.chunk.css.map",
+    "static/js/2.a36288e7.chunk.js.LICENSE.txt": "/ultimate-game-react-app/static/js/2.a36288e7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87f68a56.js",
+    "static/js/2.a36288e7.chunk.js",
+    "static/css/main.eb669eca.chunk.css",
+    "static/js/main.d39821d3.chunk.js"
+  ]
+}
