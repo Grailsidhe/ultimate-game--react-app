@@ -158,6 +158,7 @@ hr {
   width: 30%;
   border-radius: 5px;
   margin: 10px 5px 0 5px;
+  cursor: pointer;
 }
 .detailImage:active, .detailImage:hover {
   border: solid 1px #20bb1a;
