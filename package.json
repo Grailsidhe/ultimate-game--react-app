@@ -5,7 +5,7 @@
   "author": "Lorianne A",
   "license": "MIT",
   "main": "index.js",
-  "homepage": "http://grailsidhe.github.io/ultimate-game-react-app",
+  "homepage": "https://grailsidhe.github.io/ultimate-game-react-app",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
