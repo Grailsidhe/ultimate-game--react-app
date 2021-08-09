@@ -3,19 +3,23 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from "./components/Header";
 import GameList from "./components/GameList";
 import GameDetails from "./components/GameDetails";
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
   return (
-    <Router>
-      <main className="wrapper">
-        <Header name="Ultimate Game" />
-        <Switch>
-          <Route exact path="/" component={GameList} />
-          <Route exact path="/games/:id" component={GameDetails} />
-        </Switch>
-      </main>
-    </Router>
+    <div className="app">
+      <Router>
+        <main className="wrapper">
+          <Header name="Ultimate Game" />
+          <Switch>
+            <Route exact path="/" component={GameList} />
+            <Route exact path="/games/:id" component={GameDetails} />
+          </Switch>
+          <Footer />
+        </main>
+      </Router>
+    </div>
   );
 }
 
