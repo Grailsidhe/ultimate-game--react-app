@@ -13,7 +13,7 @@ function App() {
         <main className="wrapper">
           <Header name="Ultimate Game" />
           <Switch>
-            <Route exact path="/" component={GameList} />
+            <Route exact path="/ultimate-game-react-app" component={GameList} />
             <Route exact path="/games/:id" component={GameDetails} />
           </Switch>
           <Footer />
