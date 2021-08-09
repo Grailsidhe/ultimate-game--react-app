@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="app">
+    <div className="App">
       <Router>
         <main className="wrapper">
           <Header name="Ultimate Game" />
