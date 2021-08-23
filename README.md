@@ -1,5 +1,5 @@
 # Ultimate Game App
-Second checkpoint project @ [Wild Code School](http://wildcodeschool.com), June 2021 EN remote
+Test project @ [Wild Code School](http://wildcodeschool.com), June 2021 EN remote
 
 Link: [Ultimate Game App](https://grailsidhe.github.io/ultimate-game-react-app/)
 
