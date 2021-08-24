@@ -1,7 +1,7 @@
 # Ultimate Game App
 Test project @ [Wild Code School](http://wildcodeschool.com), June 2021 EN remote
 
-Link: [Ultimate Game App](https://grailsidhe.github.io/ultimate-game-react-app/)
+Link: [Ultimate Game App](https://ultimate-game.herokuapp.com/)
 
 ![mainS](https://user-images.githubusercontent.com/78496780/128643945-9b7afdb3-1833-4d49-a420-4534d893190d.png)
 
