@@ -16,6 +16,7 @@ const GameDetails =(props)=> {
 
 
     const params = props.match.params;
+    const nums = [1, 2, 3, 4, 5, 6]
 
     return (
         <div className="gameDetailsWrapper">
@@ -47,12 +48,15 @@ const GameDetails =(props)=> {
                             </div>
                             <hr />
                             <div className="gallery">
+                                {nums.map((i) => <img onClick={()=>image !== i ? setImage(i) : image} className="detailImage" src={game.short_screenshots[i].image} alt={game.name} />)}
+                                {/*
                                 <img onClick={()=>image !== 1 ? setImage(1) : image} className="detailImage" src={game.short_screenshots[1].image} alt={game.name} />
                                 <img onClick={()=>image !== 2 ? setImage(2) : image} className="detailImage" src={game.short_screenshots[2].image} alt={game.name} />
                                 <img onClick={()=>image !== 3 ? setImage(3) : image} className="detailImage" src={game.short_screenshots[3].image} alt={game.name} />
                                 <img onClick={()=>image !== 4 ? setImage(4) : image} className="detailImage" src={game.short_screenshots[4].image} alt={game.name} />
                                 <img onClick={()=>image !== 5 ? setImage(5) : image} className="detailImage" src={game.short_screenshots[5].image} alt={game.name} />
                                 <img onClick={()=>image !== 6 ? setImage(6) : image} className="detailImage" src={game.short_screenshots[6].image} alt={game.name} />
+                                */}
                             </div>
                         </div>
 
